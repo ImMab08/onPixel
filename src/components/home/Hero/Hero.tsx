@@ -1,20 +1,33 @@
 "use client";
 import React from "react";
-import { BackgroundBeams } from "./background-beams";
+import { useState, useEffect } from 'react';
 
 export const Hero = () => {
+  // const [wordIndex, setWordIndex] = useState(0);
+  // const words = ['Software', 'Webs', 'fantastic', 'incredible']; // Lista de palabras
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setWordIndex((prevIndex) => (prevIndex + 1) % words.length); // Cambia la palabra cada cierto tiempo
+  //   }, 2000); // Cambia cada 2 segundos (ajusta según sea necesario)
+
+  //   return () => clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
+  // }, [words.length]);
+
   return (
-    <section className="h-screen w-full rounded-md bg-black relative flex flex-col items-center justify-center antialiased">
-      <div className="max-w-2xl mx-auto p-4">
-        <h1 className="section-title md:text-7xl text-7xl lg:text-9xl font-bold text-center text-white relative z-20">
-        onPixel
-        </h1>
-        <p></p>
-        <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-          Apasionados por la tecnología y la creatividad. Con más de 4 años de experiencia, hemos transformando ideas en soluciones digitales excepcionales. Nuestro equipo diverso y talentoso se ha ganado la confianza de empresas líderes.
-        </p>
+    <section className="container mx-auto  items-center h-screen flex">
+      <div className="w-1/2">
       </div>
-      <BackgroundBeams />
+      <div className="w-1/2">
+      </div>
     </section>
   );
 }
+
+// const TransitionWord = ({ word }) => {
+//   return (
+//     <span className="inline-block" key={word}>
+//       {word}
+//     </span>
+//   );
+// }
