@@ -15,8 +15,8 @@ export const About = () => {
           <p className="section-title mobile-title text-left text-white font-bold text-4xl md:text-7xl">ideas en realidad </p>
           <p className="section-title mobile-title text-left text-white font-bold text-5xl md:text-7xl"> digital</p>
         </div>
-        <div className=" mt-20 grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-8">
-          <div className=""></div>
+        <div className=" mt-10 md:mt-20 grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-8">
+          <div className="hidden md:block"></div>
 
           <BackgroundGradient className="rounded-[22px] w-full h-[16rem] bg-black p-2">
             <div className="p-6">
@@ -58,7 +58,7 @@ export const About = () => {
             </div>
           </BackgroundGradient>
 
-          <div className=""></div>
+          <div className="hidden md:block"></div>
 
           <BackgroundGradient className="rounded-[22px] w-full h-[16rem] bg-black p-2">
             <div className="p-6">
@@ -70,9 +70,9 @@ export const About = () => {
             </div>
           </BackgroundGradient>
 
-          <div className=""></div>
+          <div className="hidden md:block"></div>
 
-          <div className=""></div>
+          <div className="hidden md:block"></div>
 
         </div>
       </div>
