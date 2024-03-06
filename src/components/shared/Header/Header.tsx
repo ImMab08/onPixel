@@ -58,7 +58,7 @@ export const Header = () => {
           </div>
         </div>
         
-        <div className="flex md:hidden container h-20 items-center justify-between px-10">
+        <div className="flex md:hidden container h-20 items-center justify-between px-5">
           <div className={`container-svg-header ${menuOpen ? "open" : ""}`}>
             <svg
               onClick={toggleMenu}
