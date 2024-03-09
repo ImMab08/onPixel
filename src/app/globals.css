@@ -20,6 +20,12 @@
   line-height: 5rem;
 }
 
+.text-hero {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .mobile-title {
   line-height: 3.5rem;
 }
