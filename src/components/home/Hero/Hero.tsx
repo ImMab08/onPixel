@@ -18,10 +18,10 @@ export const Hero = () => {
   // }, [words.length]);
 
   return (
-    <section className=" mx-10 md:mx-20 items-center h-screen flex flex-col justify-center text-hero ">
+    <section className=" mx-5 md:mx-20 items-center h-screen flex flex-col justify-center text-hero ">
       <div className="w-full md:flex">
-        <div className="w-1/2 mx-auto flex items-center justify-center flex-col mt-20">
-          <h1 className="text-white text-center text-5xl md:text-7xl font-semibold">
+        <div className="md:w-1/2 mx-auto flex items-center justify-center flex-col mt-20">
+          <h1 className="text-white text-center text-[2.2rem] md:text-7xl font-semibold">
             Transformamos ideas en soluciones digitales excepcionales.
           </h1>
           <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mt-10 md:mt-20">
