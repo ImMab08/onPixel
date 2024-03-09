@@ -18,8 +18,7 @@ export const Hero = () => {
   // }, [words.length]);
 
   return (
-    <section className=" mx-5 w-auto h-[680px] md:h-screen md:mx-20 items-center flex flex-col justify-center text-hero ">
-      <div className="w-full md:flex">
+    <section className="w-auto h-screen flex items-center py-auto px-5 md:mx-20  text-hero ">
         <div className="md:w-1/2 mx-auto flex items-center justify-center flex-col md:mt-20">
           <h1 className="text-white text-center md:text-left text-4xl md:text-7xl font-semibold">
             Transformamos ideas en soluciones digitales excepcionales.
@@ -41,7 +40,6 @@ export const Hero = () => {
             alt=""
           />
         </div>
-      </div>
     </section>
   );
 };
