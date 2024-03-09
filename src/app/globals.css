@@ -39,15 +39,16 @@
 .page-bg::before {
   content: "";
   position: absolute;
-  top: -50px;
-  left: -50px;
-  right: -50px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   bottom: 0;
   background-color: #13161c;
   background-image: radial-gradient(40% 80% at 50% 0, rgba(10, 233, 138, .3) 0, rgba(0, 124, 71, 0) 80%), radial-gradient(10% 10% at 50% 0, rgba(10, 233, 138, .5) 0, rgba(0, 124, 71, .4) 80%, rgb(0, 0, 0) 0), radial-gradient(100% 28.09% at 100% 10%, rgba(10, 233, 138, .2) 0, rgba(0, 124, 71, .1) 80%, rgba(0, 124, 71, 0) 100%), linear-gradient(180deg, rgba(0, 124, 71, .075) 35.79%, rgba(0, 124, 71, .05) 80%, #13161c), radial-gradient(74.84% 135.56% at 100% 10%, rgba(0, 124, 71, .5) 0, #13161c 100%);
   background-repeat: no-repeat;
   background-size: 220%;
-  filter: blur(50px);
+  width: 100%;
+  filter: blur(80px);
   z-index: -1;
 }
 
