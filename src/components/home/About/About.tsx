@@ -5,6 +5,7 @@ import { BackgroundGradient } from "./background-gradient";
 export const About = () => {
   return (
     <section className=" text-white w-full rounded-md relative flex flex-col items-center justify-center antialiased">
+
       <div className="mx-20 my-20">
         <div className="hidden md:flex items-center justify-center flex-col">
           <p className="section-title text-left text-white font-bold text-5xl md:text-7xl">Transformando ideas en</p>
@@ -76,6 +77,8 @@ export const About = () => {
 
         </div>
       </div>
+
+
     </section>
   )
 }
