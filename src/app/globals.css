@@ -30,6 +30,18 @@
   line-height: 3.5rem;
 }
 
+/* .floating-animation {
+  animation: floating 6s ease-in-out infinite;
+} */
+
+/* @keyframes floating {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+} */
 /* .page-bg {
   position: relative;
   z-index: 1;
