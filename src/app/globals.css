@@ -30,7 +30,7 @@
   line-height: 3.5rem;
 }
 
-.page-bg {
+/* .page-bg {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
@@ -50,7 +50,7 @@
   width: 100%;
   filter: blur(80px);
   z-index: -1;
-}
+} */
 
 .container-header {
   background-color: #0c0c0c;
@@ -131,5 +131,3 @@
     width: 600px;
   }
 }
-
-

@@ -1,22 +1,35 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import Image from "next/image";
 import { BackgroundGradient } from "./background-gradient";
 
 export const About = () => {
   return (
-    <section className=" text-white w-full rounded-md relative flex flex-col items-center justify-center antialiased">
-
-      <div className="mx-20 my-20">
-        <div className="hidden md:flex items-center justify-center flex-col">
-          <p className="section-title text-left text-white font-bold text-5xl md:text-7xl">Transformando ideas en</p>
-          <p className="section-title text-left text-white font-bold text-2xl md:text-7xl">realidad digital</p>
+    <section className=" mt-20 text-white  rounded-md  flex flex-col items-center justify-center antialiased bg-[#131316] relative z-[-1]">
+      <div className="absolute inset-x-0 -top-11 mt-[calc(-3/16*1rem)] flex items-end ">
+        <div className="mr-[calc(-1*(theme(spacing.8)-theme(spacing[1.5])))] h-11 flex-auto bg-[#131316]"></div>
+        <div className="flex justify-between mx-auto w-full px-6 sm:max-w-[40rem] md:max-w-[48rem] md:px-8 lg:max-w-[64rem] xl:max-w-[80rem]">
+          <svg viewBox="0 0 56 48" aria-hidden="true" className="-ml-1.5 mb-[calc(-1/16*1rem)] w-14 flex-none overflow-visible fill-[#131316]">
+            <path d="M 2.686 3 H -4 V 48 H 56 V 47 H 53.314 A 8 8 0 0 1 47.657 44.657 L 8.343 5.343 A 8 8 0 0 0 2.686 3 Z"></path>
+          </svg>
+          <svg viewBox="0 0 56 48" aria-hidden="true" className="-mr-1.5 mb-[calc(-1/16*1rem)] w-14 flex-none overflow-visible fill-[#131316]">
+            <path d="M 53.314 3 H 60 V 48 H 0 V 47 H 2.686 A 8 8 0 0 0 8.343 44.657 L 47.657 5.343 A 8 8 0 0 1 53.314 3 Z"></path>
+          </svg>
         </div>
-        <div className="flex md:hidden items-center justify-center flex-col">
-          <p className="section-title mobile-title text-left text-white font-bold text-5xl md:text-7xl">Transformando</p>
-          <p className="section-title mobile-title text-left text-white font-bold text-4xl md:text-7xl">ideas en realidad </p>
-          <p className="section-title mobile-title text-left text-white font-bold text-5xl md:text-7xl"> digital</p>
+        <div className="ml-[calc(-1*(theme(spacing.8)-theme(spacing[1.5])))] h-11 flex-auto bg-[#131316]"></div>
+      </div>
+      <div className=" mx-20  relative">
+      <img alt="" loading="lazy" decoding="async" data-nimg="1" className="max-w-none [mask:radial-gradient(26.5625rem_84.375rem_at_20%_calc(92/16*1rem),rgba(255,255,255,0.5),transparent)]   object-cover w-full h-full absolute z-[-1]" style={{color:"transparent"}} src="/img/about-img.webp"></img>
+        <div className="hidden relative z-[1] md:flex items-center justify-center flex-col pt-[5rem]">
+          <p className=" text-left text-white font-bold text-5xl md:text-7xl">Transformando ideas en</p>
+          <p className=" text-left text-white font-bold text-2xl md:text-7xl">realidad digital</p>
         </div>
-        <div className=" mt-10 md:mt-20 grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-8">
+        <div className="flex md:hidden relative z-[1] items-center justify-center flex-col pt-[5rem]">
+          <p className=" mobile-title text-left text-white font-bold text-5xl md:text-7xl">Transformando</p>
+          <p className=" mobile-title text-left text-white font-bold text-4xl md:text-7xl">ideas en realidad </p>
+          <p className=" mobile-title text-left text-white font-bold text-5xl md:text-7xl"> digital</p>
+        </div>
+        <div className=" mt-10 md:mt-20 grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-8 pb-[5rem] shadow-custom ">
           <div className="hidden md:block"></div>
 
           <BackgroundGradient className="rounded-[22px] w-full h-[16rem] bg-black p-2">
@@ -59,8 +72,6 @@ export const About = () => {
             </div>
           </BackgroundGradient>
 
-          <div className="hidden md:block"></div>
-
           <BackgroundGradient className="rounded-[22px] w-full h-[16rem] bg-black p-2">
             <div className="p-6">
               <div className="mb-4 flex items-center  gap-2">
@@ -77,8 +88,6 @@ export const About = () => {
 
         </div>
       </div>
-
-
     </section>
   )
 }

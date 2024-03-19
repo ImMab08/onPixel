@@ -44,7 +44,8 @@ export const Header = () => {
         </div>
       </div>
 
-      <header className="z-[50] fixed top-0 w-full border-b backdrop-blur-sm bg-black/[0.6] border-white/[0.1]">
+       {/*z-[50] fixed top-0  */}
+      <header className="w-full border-b backdrop-blur-sm bg-black/[0.6] border-white/[0.1]">
         <div className="hidden md:flex container h-20 items-center justify-between max-w-[88rem] mx-auto">
           <div>
             <h1 className="section-title lg:text-[3.5rem] font-bold text-center text-white relative z-20">
