@@ -5,7 +5,7 @@ import { BackgroundGradient } from "./background-gradient";
 
 export const About = () => {
   return (
-    <section className=" mt-20 text-white  rounded-md  flex flex-col items-center justify-center antialiased bg-[#131316] relative z-[-1]">
+    <section id="About" className=" mt-20 text-white  rounded-md  flex flex-col items-center justify-center antialiased bg-[#131316] relative z-[-1]">
       <div className="absolute inset-x-0 -top-11 mt-[calc(-3/16*1rem)] flex items-end ">
         <div className="mr-[calc(-1*(theme(spacing.8)-theme(spacing[1.5])))] h-11 flex-auto bg-[#131316]"></div>
         <div className="flex justify-between mx-auto w-full px-6 sm:max-w-[40rem] md:max-w-[48rem] md:px-8 lg:max-w-[64rem] xl:max-w-[80rem]">
@@ -71,6 +71,8 @@ export const About = () => {
               <p className="text-md">La usabilidad y la estética son fundamentales. Creamos interfaces de usuario que no solo se ven bien, sino que también son fáciles de usar y accesibles.</p>
             </div>
           </BackgroundGradient>
+
+          <div className="hidden md:block"></div>
 
           <BackgroundGradient className="rounded-[22px] w-full h-[16rem] bg-black p-2">
             <div className="p-6">

@@ -57,7 +57,7 @@ export const Proyects = () => {
   ];
 
   return (
-    <div className="relative flex flex-col item-center justify-center">
+    <div id="/#Proyects" className="relative flex flex-col item-center justify-center mt-20 mb-20">
       <h1 className="section-title text-center text-white font-bold text-6xl md:text-8xl">Proyectos</h1>
       <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-10 md:my-20">
         <Tabs tabs={tabs} />

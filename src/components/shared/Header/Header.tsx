@@ -45,7 +45,7 @@ export const Header = () => {
       </div>
 
        {/*z-[50] fixed top-0  */}
-      <header className="w-full border-b backdrop-blur-sm bg-black/[0.6] border-white/[0.1]">
+      <header className="w-full border-b backdrop-blur-sm bg-black/[0.6]">
         <div className="hidden md:flex container h-20 items-center justify-between max-w-[88rem] mx-auto">
           <div>
             <h1 className="section-title lg:text-[3.5rem] font-bold text-center text-white relative z-20">
@@ -53,9 +53,9 @@ export const Header = () => {
             </h1>
           </div>
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
-            <a className="text-gray-400 hover:text-white text-2xl" href="/" onClick={closeMenu}>Nosotros</a>
-            <Link className="text-gray-400 hover:text-white text-2xl" href="/pricing" onClick={closeMenu}>Proyectos</Link>
-            <Link className="text-gray-400 hover:text-white text-2xl" href="/pricing" onClick={closeMenu}>Contacto</Link>
+            <a className="text-gray-400 hover:text-white text-2xl" href="/#About" onClick={closeMenu}>Nosotros</a>
+            <Link className="text-gray-400 hover:text-white text-2xl" href="/#Proyects" onClick={closeMenu}>Proyectos</Link>
+            <Link className="text-gray-400 hover:text-white text-2xl" href={"Contact"} onClick={closeMenu}>Contacto</Link>
           </div>
         </div>
         
